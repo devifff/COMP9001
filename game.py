@@ -287,7 +287,7 @@ while run:
         pygame.time.delay(2000)#will delay the next gameplay 
         round_count += 1
         if round_count >= max_rounds:
-            final_message = 'CHAMPTION --> '
+            final_message = 'CHAMPION --> '
             if armin_wins > karlos_wins:
                 final_message += 'Armin wins SEM 2 2025'
                 screen.fill(casino_green)
